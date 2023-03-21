@@ -9,7 +9,10 @@
 	                    http://www.springframework.org/schema/context/spring-context-5.0.2.xsd
 	                    http://www.springframework.org/schema/aop
 	                    http://www.springframework.org/schema/aop/spring-aop.xsd">
+<bean id="t1" class="kr.hs.study.beans.TestBean1">
+    <property name="data1" value="10"/>
 
 
+</bean>
 
 </beans>
